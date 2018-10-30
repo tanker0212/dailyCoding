@@ -34,7 +34,7 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
 
 [출처](http://hsin.hr/coci/archive/2014_2015/contest2_tasks.pdf)
 
-
+## 실행 결과
 ### 채점을 시작합니다.
 #### 정확성  테스트
 ```
