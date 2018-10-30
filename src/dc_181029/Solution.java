@@ -2,13 +2,9 @@ package dc_181029;
 
 import java.util.HashMap;
 
-public class Solution {
-
-    public static void main(String[] args) {
-        String[] participant = new String[]{"mislav", "stanko", "mislav", "ana"};
-        String[] completion = new String[]{"stanko", "ana", "mislav"};
+class Solution {
+    public String solution(String[] participant, String[] completion) {
         String answer = "";
-
         HashMap<String, Integer> compare_map = new HashMap<>();
         for (String name : participant)
             compare_map.put(name, compare_map.getOrDefault(name,0) + 1);
@@ -20,6 +16,6 @@ public class Solution {
                 answer = key;
                 break;
             }
-        System.out.println(answer);
+        return answer;
     }
 }
